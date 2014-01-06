@@ -37,7 +37,7 @@ module qmults#(
 	reg [2*N-2:0]	reg_multiplier_temp;		//	a working copy of the multiplier
 	reg [N-1:0]		reg_multiplicand_temp;	//	a working copy of the umultiplicand
 	
-	reg [N:0] 			reg_count; 		//	This is obviously a lot bigger than it needs to be, as we only need 
+	reg [N-1:0] 			reg_count; 		//	This is obviously a lot bigger than it needs to be, as we only need 
 												//		count to N, but computing that number of bits requires a 
 												//		logarithm (base 2), and I don't know how to do that in a 
 												//		way that will work for every possibility

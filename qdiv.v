@@ -40,7 +40,7 @@ module qdiv #(
 	reg [N-2+Q:0] 		reg_working_dividend;	//	Working copy of the dividend
 	reg [2*N+Q-3:0]	reg_working_divisor;		// Working copy of the divisor
  
-	reg [N:0] 			reg_count; 		//	This is obviously a lot bigger than it needs to be, as we only need 
+	reg [N-1:0] 			reg_count; 		//	This is obviously a lot bigger than it needs to be, as we only need 
 												//		count to N-1+Q but, computing that number of bits requires a 
 												//		logarithm (base 2), and I don't know how to do that in a 
 												//		way that will work for everyone
