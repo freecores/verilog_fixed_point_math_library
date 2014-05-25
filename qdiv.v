@@ -1,20 +1,23 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
+// Company: 			Burke
+// Engineer: 			Tom Burke
 // 
-// Create Date:    19:39:14 08/24/2011 
-// Design Name: 
-// Module Name:    divider 
-// Project Name: 
+// Create Date:		19:39:14 08/24/2011 
+// Design Name: 	
+// Module Name:		qdiv.v
+// Project Name:		Fixed-point Math Library (Verilog)
 // Target Devices: 
-// Tool versions: 
-// Description: 
+// Tool versions:		Xilinx ISE WebPack v14.7
+// Description: 		Fixed-point division in (Q,N) format
 //
 // Dependencies: 
 //
 // Revision: 
 // Revision 0.01 - File Created
+//	Revision 0.02 - 25 May 2014
+//							Updated to fix an error
+//
 // Additional Comments: Based on my description on youtube:
 //			http://youtu.be/TEnaPMYiuR8
 //
